@@ -1,0 +1,26 @@
+@import '../../Variables/Variables.scss';
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+
+
+.hero {
+
+    &__wrapper {
+        padding: 7rem 20rem 0;
+
+        @include media-breakpoint-down(sm) {
+            padding: 3rem 0 0;
+        }
+    }   
+
+    &__content {
+        background-color: $color-gray;
+
+        .h1-title, .p {
+            color: $color-white;
+        }
+    }
+}

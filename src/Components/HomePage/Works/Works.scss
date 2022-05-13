@@ -1,0 +1,57 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@import '../../Variables/Variables.scss';
+
+.works {
+    background-color: $primary-color;
+
+    &__content {
+        position: relative;
+
+        &-img {
+            position: absolute;
+            top: -7rem;
+            z-index: 2;
+            left: 7rem;
+            width: 100%;
+
+            @include media-breakpoint-down(sm) {
+                width: 90%;
+                left: 9rem;
+            }
+        }
+
+        &-desc {
+            position: relative;
+            background-color: $color-white;
+            padding: 3rem 3rem 10rem;
+
+            @include media-breakpoint-down(sm) {
+                padding: 1rem 2rem 1rem 0;
+            }
+
+            h2 {
+                margin-bottom: 3rem;
+
+                @include media-breakpoint-down(sm) {
+                    width: 65%;
+                    margin-top: 1rem;
+                }
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                background-color: $color-white;
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: 100%;
+                z-index: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import '../../Variables/Variables.scss';
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+
+
+.testimonials {
+    background-color: $color-gray;
+    padding: 7rem 0 10rem;
+
+    &__icon {
+        width: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        color: $color-white;
+
+        &:last-of-type {
+            font-weight: 500;
+            float: right;
+        }
+    }
+}

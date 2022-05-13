@@ -1,0 +1,119 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@import '../../Variables/Variables.scss';
+
+.techInfo {
+    position: relative;
+    padding: 5rem 20rem 0;
+    background-color: $color-gray;
+ 
+    &__content {
+
+        &-left {
+
+            &-lines {
+                transform: rotate(90deg);
+                width: 32%;
+            }
+
+            @include media-breakpoint-down(sm) {
+               margin-top: 7rem;
+            }
+        }
+    
+        &-right {
+            position: relative;
+            background-color: $color-white;
+            padding: 3rem 5rem;
+            margin-top: 21.6rem;
+
+            &-title {
+                position: absolute;
+                top: -9rem;
+                color: $color-white;
+
+                @include media-breakpoint-down(sm) {
+                    position: static;
+                    color: $color-gray;
+                }
+            }
+
+            &-imgTop {
+                position: absolute;
+                bottom: 0;
+                right: 95%;
+                width: 57%;
+
+                @include media-breakpoint-down(sm) {
+                    bottom: 100%;
+                    right: 0;
+                    width: 68%;
+                }
+            }
+
+            @include media-breakpoint-down(sm) {
+                padding: 1rem 1rem 3rem;
+                margin-top: 0;
+            }
+        }
+    }
+
+    &::after {
+        content: "";
+        background-color: $color-gray;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        width: 100%;
+        height: 10rem;
+        z-index: -3;
+    }
+
+    
+        
+    &.bg-stripe {
+
+        &::before {
+            z-index: 0 !important;
+            top: 0 !important;
+            height: 12rem;
+
+            @include media-breakpoint-down(sm) {
+                content: none;
+            }
+        }
+
+    }
+
+    &__service {
+        padding: 7rem 0;
+
+        h3 {
+            color: $primary-color;
+            margin: 1rem 0 3rem;
+
+            @include media-breakpoint-down(sm) {
+               display: inline-block;
+            }
+        }
+        
+        p {
+            color: $color-white;
+            font-size: 1.2rem;
+        }
+
+        &-icon {
+
+            img {
+                width: 25%;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 0 1rem;
+    }
+    
+}

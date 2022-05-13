@@ -1,0 +1,27 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@import '../Variables/Variables.scss';
+
+.footer {
+    background-color: $color-gray;
+    padding: 2rem;
+
+    p {
+        color: $color-white;
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+
+        a {
+            color: $primary-color;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+                text-decoration: none;
+                color: $secondary-color;
+            }
+        }
+    }
+}

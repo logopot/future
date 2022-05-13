@@ -1,0 +1,63 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@import '../../Variables/Variables.scss';
+
+.perspective {
+
+    &__content {
+        position: relative;
+
+        &-wrapp {
+            background-color: $primary-color;
+            padding: 5rem 5rem 15rem;
+            text-align: right;
+            position: absolute;
+            top: -5rem;
+            left: 0rem;
+            z-index: 0;
+
+            h2 {
+                color: $color-white;
+            }
+
+            @include media-breakpoint-down(sm) {
+               position: static;
+               padding: 3rem 1rem;
+               text-align: left;
+            }
+        }
+
+        &-descWrapp {
+            padding: 12rem 0 3rem;
+
+            @include media-breakpoint-down(sm) {
+                padding: 3rem 0rem;
+            }
+        }
+
+        &-lines {
+            position: absolute;
+            top: 0;
+            right: 100%;
+            width: 15rem;
+            transform: rotate(90deg);
+        }
+
+        &-desc {
+            padding-right: 3rem;
+
+        }
+
+        &-img {
+            @include media-breakpoint-down(sm) {
+                padding: 6rem 0 3rem;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 5rem 0 0;
+    }
+}

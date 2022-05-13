@@ -1,0 +1,93 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@import '../../Variables/Variables.scss';
+
+.techNews {
+
+    &__img-wrapp {
+        position: relative;
+        height: 22rem;
+
+        @include media-breakpoint-down(sm) {
+            height: 13rem;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        top: -5rem;
+
+        @include media-breakpoint-down(sm) {
+            top: 0;
+        }
+    }
+
+    &__content {
+
+        &-left {
+            position: relative;
+            background-color: $color-white;
+            padding: 5rem 5rem 6rem;
+
+            h4 {
+                text-transform: uppercase;
+            }
+
+            .h2-title {
+                margin-bottom: 4rem;
+            }
+
+            @include media-breakpoint-down(sm) {
+                padding: 3rem 1rem 4rem;
+            }
+
+            &-lines {
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 43.6%;
+            }
+        }
+
+        &-right {
+            padding-top: 10rem;
+            padding-right: 6rem;
+
+            h3, p {
+                width: 70%;
+                margin-bottom: 3rem;
+                color: $color-white;
+                font-weight: 100;
+
+                @include media-breakpoint-down(sm) {
+                    width: unset;
+                    color: $color-gray;
+                }
+            }
+
+            h3 {
+                text-transform: uppercase;
+                font-size: 2rem;
+
+                @include media-breakpoint-down(sm) {
+                    margin-top: 3rem;
+                }
+            }
+
+            p {
+                font-size: 1.125rem;
+            }
+
+            @include media-breakpoint-down(sm) {
+                background-color: $color-white;
+                padding: 1rem 0.9rem 0;
+            }
+
+            &-img {
+                padding: 0 !important;
+            }
+        }
+    }
+}

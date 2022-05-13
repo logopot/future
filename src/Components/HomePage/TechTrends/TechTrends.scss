@@ -1,0 +1,68 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@import '../../Variables/Variables.scss';
+
+.techTrends {
+
+    &__wrapper {
+        padding: 7rem 0 0;
+
+        .h2-title {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            border-left: 0.5rem solid;
+            padding-left: 2rem;
+
+            @include media-breakpoint-down(sm) {
+                writing-mode: unset;
+                transform: rotate(0);
+                margin-bottom: 3rem;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding-bottom: 3rem;
+        }
+    }
+    
+
+    &.bg-stripe {
+
+        &::before {
+            z-index: 0 !important;
+            top: -5.25rem !important;
+            height: 58rem;
+
+            @include media-breakpoint-down(sm) {
+                content: none;
+            }
+        }
+
+    }
+
+    &__margin {
+
+        &:nth-of-type(1){
+            margin-top: 5rem;
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 0;
+            }
+        }
+
+        &:nth-of-type(2){
+            margin-top: 2rem;
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 0;
+            }
+        }
+
+        &:nth-of-type(3){
+            margin-top: 3rem;
+
+        }
+    }
+}

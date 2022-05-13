@@ -1,0 +1,64 @@
+{
+    "title": "Future Technologies",
+
+    "hero": {
+        "title": "Robots are the future",
+        "desc": "Recent research has found that people demand a much higher success rate from robots than from their flesh-and-bone counterparts."
+    },
+
+    "techNews": {
+        "title": "Human-robot",
+        "subtitle": "Technology news",
+        "desc1": "In human-robot collaboration, the robot assists the human operator. This means: The machine does not replace the human, but complements his capabilities and relieves him of arduous tasks. These can include overhead work, for example, or the lifting of heavy loads. Autonomous, collaborative robots are also used to supply production workstations.",
+
+        "title2": "Future of work",
+        "desc2": "While much of the discourse around AI and automation has been concerned with the looming threat to the workforce...",
+
+        "btn": "Learn more"
+    },
+
+    "techInfo": {
+        "title": "The robots of CES 2021",
+        "desc": "Hitting the show floor at CES can be something of a challenge. There are so many choices, it’s almost impossible to figure out where to even start. So this year, I got to narrow my focus to just one area — robotics — and it made my job a lot easier.\n\nOr it should have. Turns out, there are so many choices in the field of robotics, I was back where I started.",
+
+        "btn": "Learn more",
+
+        "services" : {
+            "service1": {
+                "title": "Robotization",
+                "desc": "When the first industrial revolution hit ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices."
+            },
+            "service2": {
+                "title": "Engineering",
+                "desc": "When the first industrial revolution hit ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices."
+            },
+            "service3": {
+                "title": "Industry",
+                "desc": "When the first industrial revolution hit ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices."
+            }
+        }
+    },
+
+    "techTrends": {
+        "title": "Technology Trends",
+        "desc": "Maximum flexibility in production. Relief of employees by performing ergonomically unfavorable work steps that could not previously be automated."
+    },
+
+    "testimonials": {
+        "title": "Testimonials",
+        "desc": "We need to know what the resources of the moon are. We have great evidence now because of different kinds of radar and spectroscopic analysis that people have been able to do. But we really do need to go visit there, and we can do that with a robot craft without any problem.",
+        "name": "John Smith"
+    },
+
+    "works": {
+        "title": "Artificial intelligence robots and the future of work",
+        "desc": "The number of robots in the world today is approaching 1,000,000 with almost half that number in Japan and just 15% in the US. A couple of decades ago, 90% of robots were used in car manufacturing, typically on assembly lines doing a variety of repetitive tasks.\n\nToday only 50% are in automobile plants, with the other half spread out among other factories, and many other industries."
+    },
+
+    "perspective": {
+        "title": "Robots and AI",
+        "subtitle": "AI perspectives",
+        "desc": "How many want to subject themselves to block lung disease and a host of other health problems from that job? This is why coal mining towns are dying out. Young people in these towns are moving on to the brighter job prospects. \n\nAnd technology is taking over what’s left of the mining industry. Green energy is taking over, and with it, a host of new, clean jobs and careers. It’s the march of civilization that will never cease.",
+        "btn": "Learn more"
+    }
+}
