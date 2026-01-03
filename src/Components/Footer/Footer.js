@@ -1,17 +1,26 @@
-import React from 'react';
-import './Footer.scss';
-
+import React from "react";
+import { FooterWrapper, FooterText, FooterLink } from "./Footer.styled";
+import data from "../Data/Data.json"; // prilagodi putanju do data.json
 
 const Footer = () => {
-    
-    
-    return (
+  const { text, links } = data.footer;
 
-            <div className="footer text-center">
-                <p>Special thanks to <a href="https://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a> and also to <a href="https://www.unsplash.com" title="Unsplash">Unsplash</a> and <a href="https://www.pixabay.com" title="Pixabay">Pixabay.</a></p>
-            </div>
-            
-    )
-}
+  return (
+    <FooterWrapper>
+      <FooterText>
+        {text}{" "}
+        {links.map((link, index) => (
+          <React.Fragment key={index}>
+            <FooterLink href={link.url} title={link.title}>
+              {link.label}
+            </FooterLink>
+            {index < links.length - 1 && ", "}
+          </React.Fragment>
+        ))}
+        .
+      </FooterText>
+    </FooterWrapper>
+  );
+};
 
 export default Footer;

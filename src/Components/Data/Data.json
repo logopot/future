@@ -1,64 +1,97 @@
 {
-    "title": "Future Technologies",
+  "title": "Next Generation Technologies",
 
-    "hero": {
-        "title": "Robots are the future",
-        "desc": "Recent research has found that people demand a much higher success rate from robots than from their flesh-and-bone counterparts."
-    },
+  "hero": {
+    "title": "Robotics will shape tomorrow",
+    "desc": "Studies reveal that people expect robots to deliver higher precision and reliability compared to human workers.",
+    "cta": "Explore the innovations of the future"
+  },
 
-    "techNews": {
-        "title": "Human-robot",
-        "subtitle": "Technology news",
-        "desc1": "In human-robot collaboration, the robot assists the human operator. This means: The machine does not replace the human, but complements his capabilities and relieves him of arduous tasks. These can include overhead work, for example, or the lifting of heavy loads. Autonomous, collaborative robots are also used to supply production workstations.",
+  "techNews": {
+    "title": "Human–machine synergy",
+    "subtitle": "Latest in technology",
+    "desc1": "Collaborative robots are designed to support human operators rather than replace them. They take over repetitive or physically demanding tasks such as lifting, overhead assembly, or supplying materials to workstations. This partnership increases efficiency and reduces strain on employees.",
+    "title2": "Work in transition",
+    "desc2": "Discussions around automation often highlight risks to jobs, yet new evidence shows that AI is creating fresh opportunities and hybrid roles where humans and machines work side by side.",
+    "highlight": "Automation is transforming industries, not just replacing them.",
+    "btn": "Read more"
+  },
 
-        "title2": "Future of work",
-        "desc2": "While much of the discourse around AI and automation has been concerned with the looming threat to the workforce...",
-
-        "btn": "Learn more"
-    },
-
-    "techInfo": {
-        "title": "The robots of CES 2021",
-        "desc": "Hitting the show floor at CES can be something of a challenge. There are so many choices, it’s almost impossible to figure out where to even start. So this year, I got to narrow my focus to just one area — robotics — and it made my job a lot easier.\n\nOr it should have. Turns out, there are so many choices in the field of robotics, I was back where I started.",
-
-        "btn": "Learn more",
-
-        "services" : {
-            "service1": {
-                "title": "Robotization",
-                "desc": "When the first industrial revolution hit ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices."
-            },
-            "service2": {
-                "title": "Engineering",
-                "desc": "When the first industrial revolution hit ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices."
-            },
-            "service3": {
-                "title": "Industry",
-                "desc": "When the first industrial revolution hit ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices."
-            }
-        }
-    },
-
-    "techTrends": {
-        "title": "Technology Trends",
-        "desc": "Maximum flexibility in production. Relief of employees by performing ergonomically unfavorable work steps that could not previously be automated."
-    },
-
-    "testimonials": {
-        "title": "Testimonials",
-        "desc": "We need to know what the resources of the moon are. We have great evidence now because of different kinds of radar and spectroscopic analysis that people have been able to do. But we really do need to go visit there, and we can do that with a robot craft without any problem.",
-        "name": "John Smith"
-    },
-
-    "works": {
-        "title": "Artificial intelligence robots and the future of work",
-        "desc": "The number of robots in the world today is approaching 1,000,000 with almost half that number in Japan and just 15% in the US. A couple of decades ago, 90% of robots were used in car manufacturing, typically on assembly lines doing a variety of repetitive tasks.\n\nToday only 50% are in automobile plants, with the other half spread out among other factories, and many other industries."
-    },
-
-    "perspective": {
-        "title": "Robots and AI",
-        "subtitle": "AI perspectives",
-        "desc": "How many want to subject themselves to block lung disease and a host of other health problems from that job? This is why coal mining towns are dying out. Young people in these towns are moving on to the brighter job prospects. \n\nAnd technology is taking over what’s left of the mining industry. Green energy is taking over, and with it, a host of new, clean jobs and careers. It’s the march of civilization that will never cease.",
-        "btn": "Learn more"
+  "techInfo": {
+    "title": "Robotics at CES 2021",
+    "desc": "Navigating CES can be overwhelming with countless innovations on display. Focusing on robotics revealed just how diverse and fast‑moving the field has become, from consumer gadgets to industrial solutions.",
+    "extra": "Healthcare robots, delivery drones, and service bots demonstrated how automation is entering everyday life.",
+    "btn": "Discover more",
+    "services": {
+      "service1": {
+        "title": "Automation",
+        "desc": "The industrial revolution introduced machines that reshaped society. Today, automation continues that legacy by streamlining processes and boosting productivity."
+      },
+      "service2": {
+        "title": "Engineering",
+        "desc": "Advances in engineering allow robots to adapt to complex environments, improving safety and efficiency across industries."
+      },
+      "service3": {
+        "title": "Manufacturing",
+        "desc": "Global manufacturers are investing in robotics to cut costs, increase output, and meet sustainability goals."
+      }
     }
+  },
+
+  "techTrends": {
+    "title": "Emerging Tech Trends",
+    "desc": "Flexible production lines and ergonomic support are now possible thanks to automation that was once unimaginable.",
+    "examples": [
+      "Predictive analytics powered by AI",
+      "Robotics in supply chain management",
+      "IoT‑enabled smart factories"
+    ]
+  },
+
+  "testimonials": {
+    "title": "Voices from the field",
+    "desc": "Understanding lunar resources is crucial. Radar and spectroscopy provide clues, but robotic missions can deliver direct evidence without risk to human crews.",
+    "name": "Jane Doe",
+    "role": "Astrophysicist"
+  },
+
+  "works": {
+    "title": "AI robots and the evolution of work",
+    "desc": "Global robot numbers are nearing one million, with Japan leading adoption. Decades ago, most robots were confined to car factories. Today, they are spread across diverse industries, performing tasks once thought impossible.",
+    "extra": "Robots are now entering healthcare, agriculture, and education, reshaping how people interact with technology."
+  },
+
+  "perspective": {
+    "title": "Artificial Intelligence & Robotics",
+    "subtitle": "Perspectives on AI",
+    "desc": "Traditional industries like coal mining are fading as health risks and economic decline push younger generations toward new opportunities. Renewable energy and advanced technologies are creating cleaner, safer jobs and driving progress forward.",
+    "btn": "Explore more",
+    "quote": "Innovation is the cornerstone of a sustainable and prosperous future."
+  },
+
+  "footer": {
+    "text": "Credits to Freepik, Flaticon, Unsplash, and Pixabay for their creative resources.",
+    "links": [
+      {
+        "label": "Freepik",
+        "url": "https://www.freepik.com",
+        "title": "Freepik"
+      },
+      {
+        "label": "Flaticon",
+        "url": "https://www.flaticon.com/",
+        "title": "Flaticon"
+      },
+      {
+        "label": "Unsplash",
+        "url": "https://www.unsplash.com",
+        "title": "Unsplash"
+      },
+      {
+        "label": "Pixabay",
+        "url": "https://www.pixabay.com",
+        "title": "Pixabay"
+      }
+    ]
+  }
 }
